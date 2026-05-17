@@ -1,0 +1,157 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("computer.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    }
+.hero p{
+    font-size: 25px;
+    color: black;
+}
+.hero h2{
+    font-size: 60px;
+    color: black;
+}
+.hero button{
+    padding: 15px 30px;
+    border: none;
+    background-color: steelblue;
+    color: azure;
+}
+.about{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding:100px;
+    background-color:lightskyblue;
+    color:black
+}
+.about img{
+    width: 300px;
+    border-radius: 20px;
+}
+.about h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.skills{
+    padding: 100px;
+    text-align: center;
+}
+.skills h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: black;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.skill-card{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.projects{
+    padding:100px;
+    background-color:lightskyblue;
+    color:black
+    
+}
+.projects h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.project-card{
+    width: 240px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.project-card img{
+    width: 240px;
+    height: 220px;
+    object-fit: cover;
+}
+.project-card h3{
+    padding-left: 70px;
+    
+}
+.project-card p{
+    text-align: center;
+    padding:0px 10px 0px 10px;
+    
+}
+.project-card button{
+    border-radius: 20px;
+    padding:20px 20px 20px 20px;
+    display: block;
+    margin: auto;
+    }
+.contact{
+    padding: 100px;
+    text-align: center;
+}  
+.contact h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: black;
+
+}  
+form{
+    width:60%;
+    margin: auto;
+}
+form input,form textarea{
+    width: 100%;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+form button{
+    padding:15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    color: white;
+
+}
+header{
+    color:black;
+}
